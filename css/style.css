@@ -65,15 +65,13 @@ margin-left: 50%;
     height: 20px;
     border-radius: 4px;
     background-color: black;
-    margin-top: 80%;
-    margin-left: 50%;
-    margin-right: 80%;
+    transform: rotate(90deg);
 }
 .start{
     width: 7px;
     height: 20px;
     border-radius: 4px;
     background-color: black;
-    transform: rotate(50deg);
+    transform: rotate(90deg);
 
 }
