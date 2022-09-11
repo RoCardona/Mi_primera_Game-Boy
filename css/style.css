@@ -1,77 +1,159 @@
-.container{
+.container {
     display: flex;
+    justify-content: space-around;
 }
-.consola{
+
+.consola {
     width: 350px;
     height: 550px;
     background-color: darkcyan;
+    color: rgb(33, 107, 107);
+    border-radius: 3%;
+    border-bottom-right-radius: 20%;
 }
-.screen1{
-width: 300px;
-height: 200px;
-background-color: dimgray;
-margin-top: 20px;
-margin-left: 20px;
+
+
+.screen1 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(35, 29, 29);
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border-bottom-right-radius: 30px;
 }
-.screen2{
+
+.screen2 {
     width: 200px;
     height: 175px;
-    background-color: grey;
+    background-color: rgb(197, 190, 52);
     margin-left: 50px;
 
 }
-.name{
-display: flex;
-justify-content: center;
+
+.name {
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    color: darkgray;
 }
-.arrows{
+
+.arrows {
     display: flex;
 }
-.impar{
+
+.impar {
     width: 40px;
     height: 40px;
     background-color: black;
 }
-.par{
+
+.par {
     width: 40px;
     height: 40px;
     border: 1px;
 }
-.buttons1{
+
+.buttons1 {
     width: 30px;
     height: 70px;
     border-radius: 100%;
+    color: white;
+    position: relative;
 }
-.button-a{
-width: 33px;
-height: 33px;
-background-color: tomato;
-border-radius: 100%;    
-margin-top: 80%;
-margin-left: 50%;
-}
-.button-b{
+
+.button-a {
     width: 33px;
     height: 33px;
-    background-color: tomato;
+    background-color: black;
     border-radius: 100%;
+    margin-top: 0%;
+    margin-left: 50%;
+    position: absolute;
+    left: 240px;
 }
-.buttons2{
+
+.name-a {
+    position: absolute;
+    left: 270px;
+    top: 40px;
+}
+
+.button-b {
+    width: 33px;
+    height: 33px;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: 80%;
+    margin-right: 50%;
+    position: absolute;
+    left: 200px;
+}
+
+.name-b {
+    position: absolute;
+    left: 215px;
+    top: 60px;
+}
+
+.buttons2 {
     width: 40px;
     height: 30px;
+    color: white;
+    position: relative;
 }
-.select{
-    width: 7px;
-    height: 20px;
-    border-radius: 4px;
-    background-color: black;
-    transform: rotate(90deg);
-}
-.start{
-    width: 7px;
-    height: 20px;
-    border-radius: 4px;
-    background-color: black;
-    transform: rotate(90deg);
 
+.select {
+    width: 7px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: black;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.name-s {
+    position: absolute;
+    left: 90px;
+    top: 70px;
+    font-size: 10px;
+}
+
+.start {
+    width: 7px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: black;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.name-st {
+    position: absolute;
+    left: 140px;
+    top: 70px;
+    font-size: 10px;
+}
+
+.point {
+    display: flex;
+}
+
+.color {
+    background-color: darkcyan;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+
+}
+
+.black {
+    background-color: black;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
 }
