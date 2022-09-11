@@ -3,6 +3,13 @@
     justify-content: space-around;
 }
 
+.power{
+    display: flex;
+    justify-content: left;
+    margin-top: 2px;
+    margin-left: 16px;
+}
+
 .consola {
     width: 350px;
     height: 550px;
@@ -15,7 +22,7 @@
 
 .screen1 {
     width: 300px;
-    height: 200px;
+    height: 210px;
     background-color: rgb(35, 29, 29);
     margin-top: 10px;
     margin-left: 20px;
@@ -23,11 +30,16 @@
     border-bottom-right-radius: 30px;
 }
 
+.screen-small{
+    display: flex;
+}
+
 .screen2 {
     width: 200px;
     height: 175px;
     background-color: rgb(197, 190, 52);
     margin-left: 50px;
+    margin-top: 10px;
 
 }
 
@@ -41,11 +53,18 @@
 .arrows {
     display: flex;
 }
+.cruz{
+    position: relative;
+    justify-content: center;
+    left: 25px;
+    top: 45px;
+}
 
 .impar {
     width: 40px;
     height: 40px;
     background-color: black;
+    box-shadow: 3px 3px 3px 3px rgba(12, 12, 12, 0.469)
 }
 
 .par {
@@ -71,6 +90,7 @@
     margin-left: 50%;
     position: absolute;
     left: 240px;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2)
 }
 
 .name-a {
@@ -88,6 +108,7 @@
     margin-right: 50%;
     position: absolute;
     left: 200px;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2)
 }
 
 .name-b {
@@ -141,19 +162,29 @@
 
 .point {
     display: flex;
+    margin-top: 5px;
+    margin-right: 50px;
+    position: absolute;
+    left: 20px;
+}
+.points{
+    position: relative;
+    justify-content: flex-end;
+    top: 15px;
+    left: 250px;
 }
 
 .color {
     background-color: darkcyan;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     border-radius: 100%;
 
 }
 
 .black {
     background-color: black;
-    width: 6px;
-    height: 6px;
+    width: 10px;
+    height: 10px;
     border-radius: 100%;
 }
